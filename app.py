@@ -20,7 +20,7 @@ st.file_uploader("Upload a car data file:")
 st.write("Here is a sample dataframe:")
 st.write(range(0,10))
 # Read data
-data = pd.read_csv(r'\data\customer_churn_dataset.csv')  # Assuming a CSV file 
+data = pd.read_csv(r'customer_churn_dataset.csv')  # Assuming a CSV file 
 st.write(data.head())
 st.table(data.head(5))
 st.bar_chart(data['monthly_charges'].value_counts())
