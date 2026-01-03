@@ -2,8 +2,6 @@
 import streamlit as st # App making framework
 import pandas as pd # data handling
 import numpy as np # numerical operations/ computations
-import matplotlib.pyplot as plt # visualizations - Ploting
-import seaborn as sns # visualizations
 st.title("Car Dashboard Application")
 st.write("This is a simple car dashboard application using Streamlit.") 
 # text handling
